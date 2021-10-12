@@ -54,12 +54,14 @@ function App() {
         </div>
       </div>
 
-      <CommentDetail 
-        author = "leet360" 
-        timeAgo="Today at 4:45PM" 
-        comment="lol" 
-        image={faker.image.avatar()}
-      />
+      <ApprovalCard>
+        <CommentDetail 
+          author = "leet360" 
+          timeAgo="Today at 4:45PM" 
+          comment="lol" 
+          image={faker.image.avatar()}
+        />
+      </ApprovalCard>
       <CommentDetail 
         author = "surfking" 
         timeAgo="Today at 2:00PM" 
