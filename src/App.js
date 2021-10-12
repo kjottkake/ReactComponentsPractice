@@ -1,7 +1,9 @@
 // var faker = require('faker');
 import faker from 'faker';
 import CommentDetail from './CommentDetail';
+import ApprovalCard from './ApprovalCard';
 let pic = faker.image.avatar();
+
 console.log(pic);
 
 function App() {
