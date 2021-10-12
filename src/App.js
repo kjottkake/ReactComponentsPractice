@@ -62,19 +62,35 @@ function App() {
           image={faker.image.avatar()}
         />
       </ApprovalCard>
-      <CommentDetail 
-        author = "surfking" 
-        timeAgo="Today at 2:00PM" 
-        comment="that's pretty good actually" 
-        image={faker.image.avatar()}
-      />
+      <ApprovalCard>
+        <CommentDetail 
+          author = "surfking" 
+          timeAgo="Today at 2:00PM" 
+          comment="that's pretty good actually" 
+          image={faker.image.avatar()}
+        />
+      </ApprovalCard>
       <CommentDetail 
         author = "big_machine2" 
         timeAgo="Today at 2:20PM" 
         comment="lmao." 
         image={faker.image.avatar()}
       />
-   
+      <CommentDetail 
+        author = "big_birb" 
+        timeAgo="Today at 2:20PM" 
+        comment="I love the music." 
+        image={faker.image.avatar()}
+      />
+      <CommentDetail 
+        author = "big_birb" 
+        timeAgo="Today at 2:20PM" 
+        comment="I love the words." 
+        image={faker.image.avatar()}
+      />
+      <ApprovalCard>
+        Are you sure you wish to continue?
+      </ApprovalCard>
     </div>
   );
 }
